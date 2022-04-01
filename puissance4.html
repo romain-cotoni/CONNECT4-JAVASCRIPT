@@ -1,0 +1,32 @@
+<!-- la fonction createPlayboard est en jquery-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="puissance4.css"/>
+    <title>Puissance 4</title>
+</head>
+<body>
+    <div class="end" id="end">
+        <h1>vous avez fini de jouer</h1>
+    </div>
+    <div class="main" id="main">
+        <h1>Puissance 4 à 2 joueurs</h1>
+        <h2 id="msg">joueur bleu à vous de jouer</h2>
+        <img src="arrow-left.gif"/>
+        <img src="arrow-right.gif"/>
+        <div id="gameboard" class="gameboard"></div>
+    </div>
+    <div class="replay" id="replay">
+        <h2 class="message">souhaitez vous rejouer ?</h2>
+        <button id="oui">Oui</button>
+        <button id="non">Non</button>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="puissance4.js"></script>
+
+</body>
+</html>
