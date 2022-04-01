@@ -1,0 +1,55 @@
+:root {
+    --hoverColor: blue;          
+}
+
+body {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+.main {
+    height: 80vh;
+}
+
+.end {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.replay {
+    height: 20vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main h2 {
+    color: var(--hoverColor);
+    text-align: center;
+}
+
+div.gameboard {
+    display  : flex;
+    flex-wrap: wrap;
+    border   : 1px solid black;
+    height   : 600px;
+    width    : 700px;
+}
+
+div.gameboard div {
+    border    : 1px solid black;
+    box-sizing: border-box;
+}
+
+div.col:hover {
+    background-color: var(--hoverColor);
+}
+
+button {
+    width:48%;
+    font-size: large;
+}
