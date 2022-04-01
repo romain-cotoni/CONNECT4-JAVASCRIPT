@@ -1,0 +1,74 @@
+:root {
+    --hoverColor: blue;          
+}
+
+body {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;margin: 0;
+}
+.main {
+    height: 100vh;
+    margin: 0;
+    /*border: 1px red solid;*/
+}
+
+.end {
+    height         : 100vh;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.replay {
+    position        : absolute;
+    margin          : auto;
+    padding         : 5% 25%;
+    background-color: rgba(252, 249, 249, 0.8);
+    border          : 1px gray solid;
+}
+
+h1 {
+    text-align: center;
+    margin    : 0;
+}
+
+.main h2 {
+    color     : var(--hoverColor);
+    text-align: center;
+    padding   : 1rem; 
+    margin    : 0;
+}
+
+div.gameboard {
+    display  : flex;
+    flex-wrap: wrap;
+    border   : 1px solid black;
+    height   : 80vh;/*600px;*/
+    width    : 93.3vh;/*700px;*/
+}
+
+div.gameboard div {
+    border    : 1px solid black;
+    box-sizing: border-box;
+}
+
+div.col:hover {
+    background-color: var(--hoverColor);
+}
+
+button {
+    width    : 48%;
+    font-size: large;
+}
+
+img:nth-of-type(1) {
+    position:relative;
+    float: left; 
+}
+
+img:nth-of-type(2) {
+    position:relative;
+    float: right; 
+}
